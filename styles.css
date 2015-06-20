@@ -1,0 +1,88 @@
+body {
+	font-family: 'Dosis', sans-serif;
+	color: #444444;
+}
+
+header {
+	text-align: center;
+	background: #cf2773;
+	color: green;
+	background: url(images/background.jpg);
+	background-size: cover;
+}
+
+header img {
+	border: 3px solid #fff;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+a {
+	color: #38a88f;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 42px;
+}
+
+img {
+	border: 2px solid blue;
+
+}
+
+#about {
+	background: #ffca59;
+}
+
+.links h2 {
+	font-family: sans-serif;
+	color: #ff5725;
+}
+
+.padded {
+	padding: 50px 100px;
+}
+
+.contact {
+	text-align: center;
+	color: #fff;
+	background: url(images/dark_embroidery.png);
+}
+
+.contact h2 {
+	color: #fff:
+}
+
+.contact img {
+	width: 100px;
+	margin: 10px;
+	border-radius: 50%;
+	border: none;
+}
+
+.contact img:hover {
+	opacity: 0.5;
+}
+/* targets uls with a class of websites */
+ul.websites {
+	padding: 0;
+}
+/*targets li children of uls with class of websites*/
+ul.websites li {
+	list-style: none;
+	display: inline-block;
+}
+
+.websites a {
+	background: #38a88f;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 24px;
+	display: block;
+}
+.websites a:hover {
+	background: #666;
+}
